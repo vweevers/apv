@@ -1,0 +1,14 @@
+Usage: apv build <target> [options]
+
+Start a build for a commit or pull request of a
+project. Valid targets:
+
+- <branch> <commit>
+- <commit>
+- #<pull request id>
+
+Options:
+  --account -a  Account name                [string]
+  --token   -t  Token (APPVEYOR_API_TOKEN)  [string]
+  --project -p  Project slug                [string]
+  --json    -j  JSON output                 [boolean]

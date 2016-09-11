@@ -1,0 +1,12 @@
+Usage: apv info [version] [options]
+
+View a project build by version or branch. If neither
+a version or branch if specified, the latest build of
+any branch will be returned.
+
+Options:
+  --account -a  Account name                [string]
+  --token   -t  Token (APPVEYOR_API_TOKEN)  [string]
+  --project -p  Project slug                [string]
+  --branch      Branch name                 [string]
+  --json    -j  JSON output                 [boolean]

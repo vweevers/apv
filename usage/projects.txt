@@ -1,0 +1,8 @@
+Usage: apv projects [options]
+
+List all projects of account.
+
+Options:
+  --account -a  Account name                [string]
+  --token   -t  Token (APPVEYOR_API_TOKEN)  [string]
+  --json    -j  JSON output                 [boolean]

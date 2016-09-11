@@ -1,0 +1,18 @@
+Usage: apv <command> [options]
+
+View and trigger AppVeyor builds.
+
+Commands:
+  config    Write configuration to working directory
+  projects  List projects
+  history   List build history
+  info      View build by version, branch or the latest
+  build     Start a build for a commit or pull request
+
+Global options:
+  --account -a  Account name                [string]
+  --token   -t  Token (APPVEYOR_API_TOKEN)  [string]
+  --project -p  Project slug                [string]
+  --json    -j  JSON output                 [boolean]
+
+Run 'apv <command> --help' for more information on a command.
